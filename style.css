@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .input-section input {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .input-section button {
+    padding: 8px 15px;
+    background: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-section button:hover {
+    background: #45a049;
+  }
+  
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+  
+  .card {
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    width: 220px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: relative;
+  }
+  
+  .card h3 {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .card button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deleteBtn {
+    background: #e74c3c;
+    color: white;
+  }
+  
+  .deleteBtn:hover {
+    background: #c0392b;
+  }
+  
+  .toggleBtn {
+    background: #3498db;
+    color: white;
+  }
+  
+  .toggleBtn:hover {
+    background: #2980b9;
+  }
+  .filter-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  
+  .filter-section input, .filter-section select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }

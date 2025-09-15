@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>مكتبة إلكترونية</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>المكتبة الإلكترونية</h1>
+
+    <div class="input-section">
+      <input type="text" id="titleInput" placeholder="اسم الكتاب">
+      <input type="text" id="authorInput" placeholder="اسم المؤلف">
+      <input type="text" id="categoryInput" placeholder="التصنيف">
+      <button id="addBtn">إضافة كتاب</button>
+    </div>
+
+    <div class="filter-section">
+      <input type="text" id="searchInput" placeholder="ابحث بالاسم أو المؤلف">
+      <select id="categoryFilter">
+        <option value="">كل الأصناف</option>
+        <option value="رواية">رواية</option>
+        <option value="تاريخ">تاريخ</option>
+        <option value="علوم">علوم</option>
+        <option value="فلسفة">فلسفة</option>
+      </select>
+    </div>
+
+    <div id="booksContainer" class="cards"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
